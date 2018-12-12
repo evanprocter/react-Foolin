@@ -7,7 +7,9 @@ class App extends Component {
     return (
       <div>
         <NavBar />
-        <Route path="/" exact component{Home} />
+        <Route path="/" exact component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
         
       </div>
     );
