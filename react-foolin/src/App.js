@@ -11,6 +11,7 @@ import {
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
+import NavBar from './NavBar';
 
 class App extends Component {
   render() {
